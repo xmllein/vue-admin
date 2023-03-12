@@ -1,18 +1,28 @@
-# Vue 3 + TypeScript + Vite
+## Vue 3 + TypeScript + Vite + Pinia
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- 基于 vue3.x 项目开发模板
 
-## Recommended IDE Setup
+## 项目集成
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- `vue-router` 路由
+- `pinia` 状态管理
+- `vueuse` 常用工具库
+- `eslint` 和 `prettier` 代码质量
+- `git` 提交规范
+- 集成`json-server` 本地模拟数据
 
-## Type Support For `.vue` Imports in TS
+## mock 数据
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+```bash
+npm run mock  # 启动mock服务
+# 或
+yarn mock
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+```
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 参考资料
+
+- [vite + vue3 + ts + pinia + vueuse 打造企业级前端项目](https://juejin.cn/post/7079785777692934174)
+- [vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin)
+- [vue3+vite+ts+pinia+element-plus 的项目](https://blog.csdn.net/qq_45780736/article/details/129421142)
+- [Vite2+Vue3+TypeScript：搭建企业级轻量框架实践](https://zhuanlan.zhihu.com/p/457640572)

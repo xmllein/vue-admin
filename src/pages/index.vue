@@ -1,17 +1,18 @@
 <template>
   <div>
-    <h2>Index, <span>span</span></h2>
+    <h2>vite + vue3 + ts + pinia + vueuse , <span>打造企业级前端项目</span></h2>
+    <usePinia />
   </div>
 </template>
 
 <script setup lang="ts">
-
+import usePinia from '@/components/usePinia.vue';
 </script>
 
 <style lang="less" scoped>
-h2{
+h2 {
   color: red;
-  span{
+  span {
     color: blue;
   }
 }

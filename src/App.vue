@@ -1,5 +1,10 @@
 <template>
-  <RouterView/>
+  <RouterView />
+  <div>
+    <router-link to="/">首页</router-link> |
+    <router-link to="/vueUse">vueUse</router-link> |
+    <router-link to="/request">request</router-link>
+  </div>
 </template>
 
 <style scoped>

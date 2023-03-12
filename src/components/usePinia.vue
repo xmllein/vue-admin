@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ userStore.name }}
+    <p>userStore.name: {{ userStore.name }}</p>
   </div>
 </template>
 
@@ -13,6 +13,4 @@ const userStore = useUserStore();
 userStore.name = 'xxx';
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

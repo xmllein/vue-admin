@@ -1,5 +1,5 @@
 // 用mockjs模拟生成数据
-var Mock = require('mockjs')
+var Mock = require('mockjs');
 
 module.exports = () => {
   // 使用 Mock
@@ -39,7 +39,7 @@ module.exports = () => {
     profile: {
       name: 'typicode',
     },
-  })
+  });
   // 返回的data会作为json-server的数据
-  return data
-}
+  return data;
+};
