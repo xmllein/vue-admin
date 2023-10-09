@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import { inject, reactive, nextTick, ref, toRaw, onMounted } from 'vue'
-import { ElMessage } from 'element-plus'
+import { reactive, nextTick, ref, toRaw, onMounted } from 'vue'
 import { User, Role } from 'types/index'
 import api from '@/api'
-import { R } from 'node_modules/vite-plugin-mock/dist/types-5af01a9a'
 
 const props = defineProps({
   getUserList: {

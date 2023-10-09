@@ -1,14 +1,12 @@
 /**
  * axios封装
  */
-
 import axios, {
   AxiosRequestConfig,
   AxiosRequestHeaders,
   AxiosResponse,
 } from 'axios'
 import config from '@/config'
-import { ElMessage } from 'element-plus'
 import storage from '@/utils/storage'
 import router from '@/router'
 

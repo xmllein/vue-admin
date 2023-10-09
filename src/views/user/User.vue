@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { reactive, ref, onMounted, inject, defineAsyncComponent } from 'vue'
-import { ElMessage, ElMessageBox } from 'element-plus'
-import type { TableColumnCtx, TableInstance } from 'element-plus'
+import { reactive, ref, onMounted, defineAsyncComponent } from 'vue'
+import type { TableColumnCtx } from 'element-plus'
 import type { User } from 'types/index'
 import dayjs from 'dayjs'
 
