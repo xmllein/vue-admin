@@ -2,23 +2,24 @@
   "compilerOptions": {
     "typeRoots": [
       "node_modules/@types", // 默认值
-      "src/types"
+      "types"
    ],
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "strict": true,
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "baseUrl": "./",
-    "paths":{
-      "@": ["src"],
-      "@/*": ["src/*"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "types": ["./types/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["src","mock/**/*.ts", "types"],
+  "exclude": ["**/dist/**", "**/node_modules/**"]
 }

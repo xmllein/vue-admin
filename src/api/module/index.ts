@@ -1,26 +1,10 @@
-import request from '@/utils/http';
-
+import request from '@/utils/request'
+interface IUserList {
+  pageSize: number
+}
 /**
- * 登录
+ * 获取用户列表
  */
-
-interface IResponseType<P = {}> {
-  code?: number;
-  status: number;
-  msg: string;
-  data: P;
+export const userList = (data: IUserList) => {
+  return request.get('/userList', data)
 }
-interface ILogin {
-  token: string;
-  expires: number;
-}
-export const login = (username: string, password: string) => {
-  return request<IResponseType<ILogin>>({
-    url: '/api/auth/login',
-    method: 'post',
-    data: {
-      username,
-      password,
-    },
-  });
-};
