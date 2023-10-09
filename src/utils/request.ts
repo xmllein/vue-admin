@@ -32,7 +32,7 @@ service.interceptors.request.use((req: AxiosRequestConfig) => {
 service.interceptors.response.use((res: AxiosResponse) => {
   const { code, data, msg } = res.data
 
-  if (code === 0) {
+  if (code === 0 || code === 200) {
     return data
   } else if (code === 50001) {
     ElMessage.error(TOKEN_INVALID)

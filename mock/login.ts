@@ -3,7 +3,7 @@ import Mock from 'mockjs'
 export default (config?: MockConfig) => {
   return [
     {
-      url: '/api/auth/login',
+      url: '/api/user/login',
       method: 'post',
       timeout: 1000,
       response: ({ body, query }: any) => {
