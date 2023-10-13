@@ -23,4 +23,7 @@
 - [Vite2+Vue3+TypeScript：搭建企业级轻量框架实践](https://zhuanlan.zhihu.com/p/457640572)
 - [unplugin-auto-import 和 unplugin-vue-components 的正确使用方式](https://blog.csdn.net/goodcto/article/details/130022782)
 - [vite 打包报错：块的大小超过限制，Some chunks are larger than 500kb after minification](https://blog.csdn.net/Dawnchen1/article/details/118994062)
-- [Vue3.3 + Vite4.3 + Element-Plus + TypeScript 从0到1搭建企业级后台管理系统（前后端开源）](https://juejin.cn/post/7228990409909108793)
+- [Vue3.3 + Vite4.3 + Element-Plus + TypeScript 从 0 到 1 搭建企业级后台管理系统（前后端开源）](https://juejin.cn/post/7228990409909108793)
+- [Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin)
+- [vue-next-admin](https://github.com/lyt-Top/vue-next-admin)
+- [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
